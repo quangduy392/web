@@ -1,0 +1,457 @@
+{
+   "title": "Bkav",
+   "sso": {
+      "url": "https://google.com"
+   },
+   "floorPlan": {
+      "typeOptions": [
+         {
+            "value": "access",
+            "text": "UBND"
+         },
+         {
+            "value": "flood",
+            "text": "Cảnh báo lũ"
+         },
+         {
+            "value": "fire",
+            "text": "Cảnh báo cháy"
+         },
+         {
+            "value": "protest",
+            "text": "Cảnh báo biểu tình"
+         }
+      ],
+      "typeSelected": "access"
+   },
+   "nav": {
+      "analyzeNav": {
+         "viewName": "analyze",
+         "iconClass": "fa fa-video-camera",
+         "name": {
+            "vi": "Phân tích",
+            "en": "Analyze"
+         },
+         "children": [
+            {
+               "url": "/analyze-case",
+               "permissions": [
+                  "analyze"
+               ],
+               "vi": "Phân tích",
+               "en": "Analyze",
+               "isDefault": true
+            },
+            {
+               "url": "/report",
+               "permissions": [
+                  "report"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "alertNav": {
+         "viewName": "alert",
+         "iconClass": "fa fa-exclamation-triangle",
+         "name": {
+            "vi": "Cảnh báo",
+            "en": "Alert"
+         },
+         "children": [
+            {
+               "url": "/alert/dashboard",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Cảnh báo",
+               "en": "Alert",
+               "isDefault": true
+            },
+            {
+               "url": "/alert/thief",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Móc túi - cò mồi",
+               "en": "Thief",
+               "isDefault": true
+            },
+            {
+               "url": "/alert/floor-plan",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Sơ đồ",
+               "en": "Floor plan"
+            },
+            {
+               "url": "/alert/hospital-bed",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Giường bệnh",
+               "en": "Hospital bed"
+            },
+            {
+               "url": "/alert/event",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/alert/manage",
+               "permissions": [
+                  "manage",
+                  "monitor"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/alert/report",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "attendanceNav": {
+         "viewName": "attendance",
+         "iconClass": "fa fa-user-circle-o",
+         "name": {
+            "vi": "Điểm danh",
+            "en": "Attendance"
+         },
+         "children": [
+            {
+               "url": "/attendance/welcome",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Chào mừng",
+               "en": "Welcome",
+               "isDefault": true
+            },
+            {
+               "url": "/attendance/doctor",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Tìm kiếm bác sĩ",
+               "en": "Find doctor",
+               "isDefault": true
+            },
+            {
+               "url": "/attendance/camera",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Điểm danh",
+               "en": "Attendance"
+            },
+            {
+               "url": "/attendance/event",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/attendance/manage",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/attendance/report",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "processMonitorNav": {
+         "viewName": "reception",
+         "iconClass": "fa fa-check-square-o",
+         "name": {
+            "vi": "Tiếp dân",
+            "en": "Process monitor"
+         },
+         "children": [
+            {
+               "url": "/process-monitor/dashboard",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Tiếp dân",
+               "en": "Process monitor",
+               "isDefault": true
+            },
+            {
+               "url": "/process-monitor/map",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Bản đồ",
+               "en": "Map"
+            },
+            {
+               "url": "/process-monitor/event",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/process-monitor/manage",
+               "permissions": [
+                  "manage",
+                  "monitor"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/process-monitor/report",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "processMonitorNavHcc": {
+         "viewName": "reception",
+         "iconClass": "fa fa-check-circle-o",
+         "name": {
+            "vi": "Hành chính công",
+            "en": "Process monitor"
+         },
+         "children": [
+            {
+               "url": "/process-monitor/dashboardhcc",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Hành chính công",
+               "en": "Process monitor",
+               "isDefault": true
+            },
+            {
+               "url": "/process-monitor/map",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Bản đồ",
+               "en": "Map"
+            },
+            {
+               "url": "/process-monitor/eventhcc",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/process-monitor/manage",
+               "permissions": [
+                  "manage",
+                  "monitor"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/process-monitor/report",
+               "permissions": [
+                  "monitor"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "trafficMonitorNav": {
+         "viewName": "traffic",
+         "iconClass": "fa fa-car",
+         "name": {
+            "vi": "Giao thông",
+            "en": "Traffic monitor"
+         },
+         "children": [
+            {
+               "url": "/traffic/dashboard",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Giao thông",
+               "en": "Traffic",
+               "isDefault": true
+            },
+            {
+               "url": "/traffic/map",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Bản đồ",
+               "en": "Map"
+            },
+            {
+               "url": "/traffic/event",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/traffic/manage",
+               "permissions": [
+                  "manage",
+                  "attendance"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/traffic/report",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "peopleCount": {
+         "viewName": "statistic",
+         "iconClass": "fa fa-users",
+         "name": {
+            "vi": "Đếm người",
+            "en": "People count"
+         },
+         "children": [
+            {
+               "url": "/people-count/dashboard",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Đếm người",
+               "en": "People Count",
+               "isDefault": true
+            },
+            {
+               "url": "/people-count/event",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/people-count/manage",
+               "permissions": [
+                  "manage",
+                  "attendance"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/people-count/report",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "vehicleCount": {
+         "viewName": "vehicle",
+         "iconClass": "fa fa-motorcycle",
+         "name": {
+            "vi": "Đếm xe",
+            "en": "Vehicle count"
+         },
+         "children": [
+            {
+               "url": "/vehicle-count/dashboard",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Đếm xe",
+               "en": "Vehicle Count",
+               "isDefault": true
+            },
+            {
+               "url": "/vehicle-count/event",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Sự kiện",
+               "en": "Events"
+            },
+            {
+               "url": "/vehicle-count/manage",
+               "permissions": [
+                  "manage",
+                  "attendance"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage"
+            },
+            {
+               "url": "/vehicle-count/report",
+               "permissions": [
+                  "attendance"
+               ],
+               "vi": "Báo cáo",
+               "en": "Report"
+            }
+         ]
+      },
+      "management": {
+         "iconClass": "fa fa-cogs",
+         "name": {
+            "vi": "Quản trị",
+            "en": "Management"
+         },
+         "children": [
+            {
+               "url": "/management/manage",
+               "permissions": [
+                  "manage",
+                  "monitor"
+               ],
+               "vi": "Danh mục",
+               "en": "Manage",
+               "isDefault": true
+            },
+            {
+               "url": "/management/user",
+               "permissions": [
+                  "manage",
+                  "monitor"
+               ],
+               "vi": "Người dùng",
+               "en": "User"
+            }
+         ]
+      }
+   }
+}

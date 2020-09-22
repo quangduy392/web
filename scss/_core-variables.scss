@@ -1,0 +1,13 @@
+// core overrides
+$navbar-brand-logo: url('/static/img/logo.png');
+$navbar-brand-minimized-logo: url('/static/img/logo.png');
+$navbar-bg: $black;
+$navbar-border: (bottom: (size: 0));
+$navbar-brand-width: 155px;
+$navbar-brand-bg: $black;
+$navbar-brand-logo-size: 114px auto;
+$navbar-brand-border: (bottom: (size: 0));
+
+
+//Custom variable
+$listFontSize: (10, 12, 13, 14, 15, 16, 17, 18, 20, 24, 30, 32, 36, 40, 42) !default;

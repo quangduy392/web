@@ -1,0 +1,215 @@
+@page {
+  size: A4;
+  margin: 0; }
+
+@media print {
+  .print-background-map {
+    position: relative !important; }
+  .bc-visual-layer-img-bg {
+    background: transparent; }
+  .bc-visual-layer-img-overlay {
+    display: none; }
+  .ir-footer-img-logo {
+    display: none; }
+  .ir-footer-img-logo.print {
+    display: inline-block !important; }
+  .research-tab-active .research-reports-container {
+    overflow: visible !important;
+    display: block !important;
+    height: 100vh !important; }
+  .report-item-container-wrap {
+    height: 100% !important;
+    padding-top: 0 !important;
+    overflow: visible !important; }
+  body .full-width-wrap {
+    overflow: visible !important; }
+  .report-body,
+  .report-footer,
+  .report-header {
+    box-shadow: none !important; }
+  body {
+    background-color: #fff !important;
+    background-image: none; }
+  my-app {
+    width: auto !important;
+    height: auto !important; }
+  .highcharts-legend-item text,
+  .highcharts-root text,
+  .object-count-title,
+  .research-report .report-footer .credit-text,
+  .widget-counter,
+  .widget-title,
+  .widget-type-text div {
+    color: #000 !important;
+    fill: #000 !important;
+    font-weight: 400 !important; }
+  .report-body,
+  .report-footer,
+  .report-header {
+    box-shadow: none; }
+  .report-body,
+  .research-report .report-footer {
+    background: #fff !important;
+    box-shadow: none; }
+  .body-wrap {
+    top: 0 !important;
+    height: 100% !important;
+    overflow: visible !important; }
+  .main-toolbar {
+    display: none !important; }
+  .report-print-icon {
+    display: none !important; }
+  .tabs-area {
+    display: none !important; }
+  .tab-container {
+    display: none !important; }
+  .research-report-list-container {
+    display: none !important; }
+  .report-item-container {
+    padding-top: 0 !important;
+    width: 100% !important;
+    overflow: visible !important;
+    height: 100vh !important;
+    display: block !important; }
+  .highcharts-title tspan {
+    font-family: 'Lato', sans-serif;
+    fill: #000; }
+  .highcharts-text-outline tspan {
+    fill: #fff; }
+  .highcharts-label tspan {
+    fill: #333; }
+  .thumb-play-icon {
+    display: none; }
+  .rows-wrap,
+  .widget-box {
+    page-break-before: always; }
+  .panel.panel-default {
+    page-break-inside: avoid; }
+  body {
+    overflow: auto;
+    height: 100vh;
+    margin: 0 auto; }
+    body .report-body-container {
+      width: 720px;
+      margin: 0 auto; }
+    body .research-report .report-footer {
+      margin-bottom: 0 !important; }
+    body .full-width-wrap {
+      margin-top: 2px !important; }
+  body my-app {
+    width: auto !important;
+    height: auto !important; }
+  body .full-width-wrap {
+    height: 100%;
+    overflow: auto;
+    margin-top: 20px; }
+  .body-wrap.ir-wrap {
+    color: #000;
+    box-shadow: none; }
+    .body-wrap.ir-wrap .ir-item {
+      width: 100%;
+      background: #fff; }
+    .body-wrap.ir-wrap .thick-hr {
+      background: none;
+      height: 0;
+      border-bottom: none;
+      box-shadow: none;
+      border-top: 1px solid #eee;
+      width: 100%;
+      margin: 0 auto; }
+    .body-wrap.ir-wrap .ir-item-body {
+      padding-top: 10px; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-section-title,
+    .body-wrap.ir-wrap .ir-item-body-events-section-title {
+      page-break-after: avoid; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-section-title {
+      padding-top: 30px; }
+    .body-wrap.ir-wrap .ir-bookmarks-section-wrap {
+      page-break-inside: avoid;
+      margin-top: 20px; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-description {
+      min-height: 1px; }
+    .body-wrap.ir-wrap .ir-item-body-events-loop,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-loop {
+      page-break-inside: avoid;
+      border-bottom: 1px solid #eee; }
+    .body-wrap.ir-wrap .ir-item-body-events-loop {
+      margin-top: 0;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      .body-wrap.ir-wrap .ir-item-body-events-loop:nth-child(2) {
+        margin-top: 0; }
+    .body-wrap.ir-wrap .ir-item-footer {
+      padding-left: 50px;
+      padding-right: 50px; }
+    .body-wrap.ir-wrap .ir-item-footer-left {
+      opacity: 0;
+      width: 0; }
+    .body-wrap.ir-wrap .ir-item-footer-center {
+      width: 65%;
+      text-align: left;
+      vertical-align: top;
+      margin-top: 10px; }
+    .body-wrap.ir-wrap .ir-item-footer-right {
+      width: 35%;
+      text-align: right;
+      vertical-align: top; }
+    .body-wrap.ir-wrap .ir-footer-img-logo {
+      display: none; }
+    .body-wrap.ir-wrap .ir-footer-img-logo.print {
+      display: inline-block; }
+    .body-wrap.ir-wrap .ir-item-body-events-description {
+      min-height: 1px; }
+    .body-wrap.ir-wrap .ir-item-body-events-left-wrap {
+      width: 320px;
+      min-height: 250px; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-loop:nth-child(odd) {
+      margin-left: 0%; }
+    .body-wrap.ir-wrap .ir-item-body-events-footer {
+      margin-top: 36px;
+      position: inherit; }
+    .body-wrap.ir-wrap .ir-item-body-events-footer,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-footer {
+      white-space: normal; }
+    .body-wrap.ir-wrap .ir-item-body-events-footer-firsthalf,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-footer-firsthalf,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-footer-secondhalf {
+      width: 100%;
+      text-align: left; }
+    .body-wrap.ir-wrap .ir-item-body-events-right-wrap {
+      position: relative;
+      width: 400px; }
+    .body-wrap.ir-wrap .clickable-player-wrap {
+      background: none; }
+    .body-wrap.ir-wrap .clickable-player-wrap {
+      display: none; }
+    .body-wrap.ir-wrap .ir-item-body-events-right-wrap .ir-item-body-events-objectnum-icon .Objects_icon,
+    .body-wrap.ir-wrap .num-n-txt-widget .num-n-txt-widget-txt,
+    .body-wrap.ir-wrap .ir-item-header-owner-label {
+      color: #000; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-loop {
+      width: 100%; }
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-title,
+    .body-wrap.ir-wrap .ir-bookmarks-camera-name,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-section-title,
+    .body-wrap.ir-wrap .ir-item-body-events-title,
+    .body-wrap.ir-wrap .ir-event-camera-name,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-end-date,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-end-time,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-separator,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-start-date,
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-start-time,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-footer-secondhalf-start-date,
+    .body-wrap.ir-wrap .ir-item-body-bookmarks-footer-secondhalf-start-time,
+    .body-wrap.ir-wrap .ir-item-body-events-section-title,
+    .body-wrap.ir-wrap .num-n-txt-widget-txt,
+    .body-wrap.ir-wrap .update-time,
+    .body-wrap.ir-wrap .update-date,
+    .body-wrap.ir-wrap .ir-item-body-events-section-title {
+      font-weight: 400; }
+    .body-wrap.ir-wrap .ir-item-body-events-footer-secondhalf-end-time {
+      text-align: left;
+      padding-left: 0px; }
+    .body-wrap.ir-wrap .ir-item-header-description {
+      width: 500px; } }
